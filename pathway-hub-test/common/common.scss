@@ -1,0 +1,55 @@
+@import "variables";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html, body {
+	background: #F0F8FF !important;
+	font-family: Montserrat, Helvetica, Sans-serif;
+}
+
+
+.header {
+    background-color: #3481ed;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+		width: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #3481ed;
+  font-size: calc(15px);
+  color: white;
+  text-align: center;
+}
+
+.banner {
+	height: 100px;
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	background: white;
+	margin-bottom: 1em;
+	align-items: center;
+}
+
+.banner__title {
+	font-size: 3em;
+	color: #A9A9A9;
+	font-family: "Verdana", sans-serif;
+	text-align: center;
+}
+
+.banner__desc {
+	font-size: 1em;
+	color: $logo-green;
+	font-family: "Verdana", sans-serif;
+	justify-content: center;
+}
